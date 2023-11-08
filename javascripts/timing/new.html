@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+</body>
+<script src="../jquery-3.6.3.js"></script>
+
+<script>
+    var x = 5;
+    var y = 10;
+
+    let counter = 0;
+
+    function sanskar(a,b){
+    console.log(a+b);
+    // a++;
+    // b--;
+}
+
+    function display(){
+        console.log(counter);
+        counter++;
+    }
+    
+    $(document).ready(function(){
+        // setInterval(display, 1000);
+
+        setInterval(() => 
+        { //when parameter is passed anonymous func
+            sanskar(x++,y++); 
+        }, 1000);
+    });
+</script>
+</html>
+
+
+<!-- arrays , objects, then jquerry -->

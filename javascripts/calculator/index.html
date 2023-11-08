@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; background-color: #f2f2f2;">
+    <fieldset style="margin: 20px; padding: 20px; background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);">
+        <center>
+            <h4>Enter the First Number</h4>
+            <input type="text" id="firstDigit" style="padding: 8px; margin: 10px 0;" required><br>
+
+            <h4>Select the Operation</h4>
+            <select name="opcode" id="opcode" style="padding: 8px; margin: 10px 0;">
+                <option value="">-- Select --</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+                <option value="%">%</option>
+            </select>
+            <h4>Enter the Second number</h4>
+            <input type="number" id="secondDigit" style="padding: 8px; margin: 10px 0;" required>
+            <br><br>
+            <button type="button" id="submit" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px;">Calculate</button>
+            <h3><label id="display" style="margin: 10px 0; font-size: 24px;">--</label></h3>
+
+            <!-- Power Calculator -->
+
+            <br>
+            <h4>Enter the Number</h4>
+            <input type="number" id="NumberForPower" style="padding: 8px; margin: 10px 0;" required><br>
+            <h4>Enter the Power Limit</h4>
+            <input type="number" id="Power" style="padding: 8px; margin: 10px 0;" required>
+            <br><br>
+            <button type="button" id="button2" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px;">Calculate</button>
+            <br><br>
+            <label id="display2" style="margin: 10px 0; font-size: 24px;">--</label>
+
+            <!-- Counter -->
+
+            <br>
+            <h4><label id = "value">0</label></h4>
+            <button type="button" id="decreaseBtn" style="padding: 10px 20px; background-color: #d9534f; color: #fff; border: none; border-radius: 5px;">Decrease</button>
+            <button type="button" id="resetBtn" style="padding: 10px 20px; background-color: #f0ad4e; color: #fff; border: none; border-radius: 5px;">Reset</button>
+            <button type="button" id="increaseBtn" style="padding: 10px 20px; background-color: #5bc0de; color: #fff; border: none; border-radius: 5px;">Increase</button>
+            
+        
+        
+        
+        
+        
+        
+        </center>
+    </fieldset>
+</body>
+<script src="script.js"></script>
+</html>
